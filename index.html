@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <title>loldevs</title>
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootswatch/3.2.0/flatly/bootstrap.min.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootswatch/3.2.0/flatly/bootstrap.min.css">
     <style>
     .content {
-        margin-top: 60px;
+        margin-top: 90px;
     }
     </style>
 </head>
@@ -24,9 +24,9 @@
             </div>
             <div class="collapse navbar-collapse">
               <ul class="nav navbar-nav">
-                <li><a href="#welcome">Welcome</a></li>
                 <li><a href="#about">About us</a></li>
                 <li><a href="#projects">Projects</a></li>
+                <li><a href="#contributing">Contributing</a></li>
               </ul>
             </div><!--/.nav-collapse -->
         </div>
@@ -41,39 +41,106 @@
         </section>
 
         <section id="about" class="well">
-            <h3>Who are we?</h3>
-            <p>We are a bunch of developers, technicians and LoL fans.</p>
+            <h3>
+                About
+                <small>Who? What? Why?</small>
+            </h3>
+            <p>
+                We are a bunch of developers, who have been brought together by enthusiasm in open-source development,
+                thirst for knowledge and most importantly love for League. We started of in February 2014 with the goal
+                to improve the experience of League players by exploring how League works, sharing the knowledge we
+                gather and making use of it in a variety of software solutions.
+            </p>
         </section>
         <section id="projects" class="well">
             <h3>Projects</h3>
-            <p>Here is a (incomplete) list of cool LoL related projects.</p>
+            <p>Here is a (incomplete) list projects we are working on.</p>
             <ul class="list-group">
-                <a class="list-group-item" href="http://logsoflag.com">
-                    <h4 class="list-group-item-heading">LogsOfLag</h4>
+
+                <li class="list-group-item">
+                    <h4 class="list-group-item-heading">
+                        <a href="https://github.com/loldevs/leaguespec/wiki">leaguespec</a>
+                    </h4>
                     <p class="list-group-item-text">
-                        Write some text...
+                        The main collection of knowledge we have gathered.
                     </p>
-                </a>
-                <a class="list-group-item" href="http://riftwalk.gg">
-                    <h4 class="list-group-item-heading">Riftwalk.gg</h4>
+                </li>
+
+                <li class="list-group-item">
+                    <h4 class="list-group-item-heading">
+                        <a href="https://github.com/loldevs/lol-observer">lol-observer</a>
+                        <span class="label label-default">Javascript</span>
+                    </h4>
                     <p class="list-group-item-text">
-                        Write some text...
+                        A piece of software written to parse data from the spectator stream of League.
                     </p>
-                </a>
-                <a class="list-group-item" href="http://www.lolnexus.com/">
-                    <h4 class="list-group-item-heading">LoL Nexus</h4>
+                </li>
+
+                <li class="list-group-item">
+                    <h4 class="list-group-item-heading">
+                        <a href="https://github.com/loldevs/lol-spec">lol-spec</a>
+                        <span class="label label-default">Java</span>
+                    </h4>
                     <p class="list-group-item-text">
-                        Write some text...
+                        Another project with the aim of studying the League spectator stream
                     </p>
-                </a>
+                </li>
+
             </ul>
+            <p>We also encourage you to check out these cool League related projects.</p>
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <h4 class="list-group-item-heading"><a href="http://logsoflag.com">LogsOfLag</a></h4>
+                    <p class="list-group-item-text">
+                        A League of Legends netlog analyzer
+                    </p>
+                </li>
+                <li class="list-group-item">
+                    <h4 class="list-group-item-heading"><a href="http://riftwalk.gg">Riftwalk.gg</a></h4>
+                    <p class="list-group-item-text">
+                        Incredibly detailed game statistics
+                    </p>
+                </li>
+                <li class="list-group-item">
+                    <h4 class="list-group-item-heading"><a href="http://www.lolnexus.com/">LoL Nexus</a></h4>
+                    <p class="list-group-item-text">
+                        Realtime game search
+                    </p>
+                </li>
+            </ul>
+            <p>
+                If you know of a project that you think we should include here, or are working on one yourself, let us
+                know! You can find the details on how to get in touch with us down in the <a href="">contribution</a>
+                section.
+            </p>
+        </section>
+        <section id="contributing" class="well">
+            <h3>Contributing</h3>
+            <p>
+                Fresh blood is always welcome with loldevs! Most of us don't have too much time to work on pet-projects,
+                so any help would be greatly appreciated. Some of the things <em>you</em> can help us with include
+            </p>
+            <ul>
+                <li>writing or cleaning up documentation, </li>
+                <li>writing guides and tutorials, </li>
+                <li>doing research, </li>
+                <li>developing reference implementations.</li>
+            </ul>
+            <p>
+                The best way to get in touch with us is to join our IRC channel, which is
+                <a href="https://webchat.freenode.net/?channels=##loldevs">##loldev@chat.freenode.net</a>
+                (yes, with 2 hashtags).
+            </p>
         </section>
 
-        <section class="well">
-            <h4>Legal stuff</h4>
-            <p>
-                leaguespec and loldevs isn’t endorsed by Riot Games and doesn’t reflect the views or opinions of Riot Games or anyone officially involved in producing or managing League of Legends.<br />
-                League of Legends and Riot Games are trademarks or registered trademarks of Riot Games, Inc. League of Legends &copy; Riot Games, Inc.
+        <section id="legal" class="col-xs-12">
+            <p class="small">
+                Leaguespec and loldevs aren’t endorsed by Riot Games and doesn’t reflect the views or opinions of
+                Riot Games or anyone officially involved in producing or managing League of Legends.
+            </p>
+            <p class="small">
+                League of Legends and Riot Games are trademarks or registered trademarks of Riot Games, Inc.
+                League of Legends &copy; Riot Games, Inc.
             </p>
         </section>
     </div>
